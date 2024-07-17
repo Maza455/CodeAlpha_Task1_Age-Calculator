@@ -34,7 +34,7 @@ document.getElementById('age-form').addEventListener('submit',
 
         updateAgeHistory();
     });
-    
+
     function updateAgeHistory() {
         let ageHistoryList = document.getElementById('age-history');
         ageHistoryList.innerHTML = '';
@@ -45,3 +45,7 @@ document.getElementById('age-form').addEventListener('submit',
             ageHistoryList.appendChild(listItem);
         })
     }
+
+// function remove() {
+
+// }
